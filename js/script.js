@@ -232,7 +232,6 @@ $(document).resize(function () {
         // console.log($(".video .playBox .icon"))
         $('a.icon').on('click', function (e) {
             e.preventDefault();
-            // console.log('왜또 지랄?')
             $('#overlay').addClass('visible');
         });
         $('#overlay').on('click', function (e) {
